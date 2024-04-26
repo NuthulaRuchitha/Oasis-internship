@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06f615e180.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>R</span>UCHITHA</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skill's</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact Details</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-image">
+        <div id="image"> </div>
+        <div class="header-text">
+            <p> Student</p>
+            <h1> Hi,I'm <span>Ruchitha Reddy</span></h1>
+        </div>
+        </div>
+    </div>
+ <!-------------about-------------->
+    <div id="about">
+        <h1>About Me</h1>
+        <div class="aboutContent">
+            <h>"Welcome to my portfolio! I'm an engineering student with a passion for problem-solving and innovation. Throughout my academic career, I have excelled in my coursework and have been recognized for my outstanding academic achievements. I have also worked on a variety of engineering projects, both independently and as part of a team, which have allowed me to apply my skills and knowledge to real-world challenges. I am excited to continue exploring new opportunities and to use my skills to make a positive impact on the world. Take a look at my portfolio to see some of my recent projects and get in touch to discuss potential collaboration opportunities!"
+            </h>
+        </div>
+    </div>
+ <!----------skill's---------->
+ <div id="skills">
+    <div class="container-skills">
+        <h1 class="sub-title">My Skill's</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>PYthon</li>
+                    <li>Basics of c++</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Development</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>React Js</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+               <h2>Data Bases</h2>
+                <ul>
+                    <li>MY SQL</li>
+                </ul>
+                </div>
+        </div>
+    </div>
+  </div>
+<!-----------project------>
+<div id="project">
+    <div class="container-project">
+        <h1 class="sub-title">Project</h1>
+        <div class="project-list"> 
+            <div class="work">
+                <img src="project1.jpg">
+                <div class="layer">
+                    <h3>Learning Management System</h3>
+                    <p> LMS is a software that is designed specifically to create, distribute, and manage the delivery of educational content. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+               
+            </div>
+            <div class="work">
+                <img src="project2.jpg">
+                <div class="layer">
+                    <h3>Voice Assistant</h3>
+                    <p> It's software that carries out everyday tasks via voice command. It's brings AI and machine learning together to recognize our voice and do what we ask it. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------education-------->
+<div id="education">
+    <div class="container-education">
+       <h1 class="sub-title">Education</h1>
+      <table class="table-style">
+      <tr id="heading">
+         <td><h3>Course</h3></td>
+          <td><h3>Institutions</h3></td>
+         <td><h3>Board/University</h3></td>
+          <td><h3>Percentage</h3></td>
+        </tr>
+        <tr>
+          <td>B.E in Computer Science (Pursuing)</td>
+          <td>Gurunanak Institutions Technical Campus</td>
+          <td>JNTU</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td>Narayana Junior college Mallampet,Medchal Dist.</td>
+          <td> Telangana State Board of Intermediate Education</td>
+          <td>98.6</td>
+
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td>Sri Chandra Techno School,Manikbandar,Nizamabad</td>
+          <td>Telangana Board of Secondary Education</td>
+          <td> 98</td>
+        </tr>
+       </table>
+    </div>
+</div>
+<!------------contact------>
+
+<div id="contact">
+    <div class="container-contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9876543210</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nuthula-anitha-2b02b325a"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                 <input type="text" name="Name"placeholder="Your Name" required>
+                 <input type="email" name="Email"placeholder="Your Email" required>
+                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                 <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0g4iqV17OFbs1qXCxWEurwusPgSDXjNiNspFFxETqI30mvS6hIwK8uIBtD3uU6qV6mQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
